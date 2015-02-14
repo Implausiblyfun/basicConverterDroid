@@ -83,7 +83,7 @@ public class sillyStart extends Activity {
             public void onClick(View v) {
                 String celciusStr   = celcius.getText().toString();
                 String farenheitStr =  farenheit.getText().toString();
-                String outStr = converter.convert(celciusStr, farenheitStr);
+                String outStr = converter.convert(celciusStr, farenheitStr, flag);
                 //Toast.makeText(getApplicationContext(), Integer.toString(flag), Toast.LENGTH_LONG).show(); //debug output method for android
                 nonUserFlag = 1;
                 if(flag == 1){

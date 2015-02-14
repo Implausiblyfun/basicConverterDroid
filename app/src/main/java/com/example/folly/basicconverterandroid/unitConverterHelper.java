@@ -6,7 +6,7 @@ package com.example.folly.basicconverterandroid;
 public class unitConverterHelper {
 
     // Needs to  be implemented
-    public String convert(String celc, String faren){
+    public String convert(String celc, String faren,int flag){
         Integer celcius = Integer.parseInt(celc);
         celcius +=1;
         return Integer.toString(celcius);
